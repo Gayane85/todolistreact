@@ -1,13 +1,9 @@
 import React from "react";
-import InputBtn from "./InputBtn";
+import Todo from "./Todo";
 
 class App extends React.Component {
   render() {
-    return (
-      <div>
-        <InputBtn />
-      </div>
-    );
+    return <Todo />;
   }
 }
 
